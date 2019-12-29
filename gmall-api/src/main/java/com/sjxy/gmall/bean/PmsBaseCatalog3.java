@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 /**
  * @ClassName PmsBaseCatalog3
@@ -12,14 +13,11 @@ import javax.persistence.Id;
  * @Date 2019/12/27 20:32
  * @Version 1.0
  **/
-public class PmsBaseCatalog3 {
+public class PmsBaseCatalog3 implements Serializable {
     @Id
-    @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
-    @Column
     private String name;
-    @Column
     private String catalog2Id;
 
     public String getId() {
