@@ -1,8 +1,8 @@
 package com.sjxy.gmall.user.service.impl;
 
-import com.sjxy.gmall.user.bean.UmsMember;
-import com.sjxy.gmall.user.service.UserService;
-import org.junit.jupiter.api.Test;
+import com.sjxy.gmall.bean.UmsMember;
+import com.sjxy.gmall.service.UserService;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,7 +12,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 
 @SpringBootTest

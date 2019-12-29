@@ -1,14 +1,15 @@
 package com.sjxy.gmall.user.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.sjxy.gmall.bean.UmsMember;
 import com.sjxy.gmall.bean.UmsMemberReceiveAddress;
 import com.sjxy.gmall.service.UserService;
 import com.sjxy.gmall.user.mapper.UmsMemberMapper;
 import com.sjxy.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 /**
  * @ClassName UserServiceImpl
  * @Desciptionn TODO
